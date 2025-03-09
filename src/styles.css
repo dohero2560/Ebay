@@ -102,4 +102,66 @@ h2 {
   color: #dc3545;
   font-size: 14px;
   margin-top: 5px;
+}
+
+.advanced-options {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+.toggle-advanced {
+  background-color: #6c757d;
+  margin-top: 10px;
+}
+
+.toggle-advanced:hover {
+  background-color: #5a6268;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.saved-calculations {
+  margin-top: 30px;
+  border-top: 2px solid #eee;
+  padding-top: 20px;
+}
+
+.saved-calculation-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.shipping-calculator {
+  background-color: #e9f7ef;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.profit-margin-slider {
+  width: 100%;
+}
+
+/* Responsive design improvements */
+@media (max-width: 600px) {
+  .input-group {
+    gap: 10px;
+  }
+  
+  .exchange-rate-input {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 } 
